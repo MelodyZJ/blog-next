@@ -6,11 +6,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 6006",
+    "dev": "next dev -p 9527",
     "build": "next build",
-    "start": "next start -p 6006",
+    "start": "next start -p 9527",
     "lint": "next lint",
-    "server": "next build && next start -p 6006"
+    "server": "next build && next start -p 9527"
   },
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
