@@ -104,6 +104,15 @@
 .preloader .inner:nth-child(7) {
   animation: prebounce 0.4s 0.6s infinite alternate;
 }
+.preloader .inner:nth-child(8) {
+  animation: prebounce 0.4s 0.7s infinite alternate;
+}
+.preloader .inner:nth-child(9) {
+  animation: prebounce 0.4s 0.8s infinite alternate;
+}
+.preloader .inner:nth-child(10) {
+  animation: prebounce 0.4s 0.9s infinite alternate;
+}
 @keyframes prebounce {
   to {
     text-shadow: 0 1px #bbb, 0 2px #bbb, 0 3px #bbb, 0 4px #bbb, 0 5px #bbb,
