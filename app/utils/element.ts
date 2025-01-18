@@ -1,14 +1,5 @@
-/*
- * @Descripttion: 此utils存放元素通用的utils方法
- * @version:
- * @Author: WangPeng
- * @Date: 2022-01-13 11:42:16
- * @LastEditors: WangPeng
- * @LastEditTime: 2023-05-25 10:39:59
- */
-
-import raf from 'rc-util/lib/raf';
-import { easeInOutCubic } from './classicUtils';
+import raf from "rc-util/lib/raf";
+import { easeInOutCubic } from "./classicUtils";
 
 interface ScrollToOptions {
   /** Scroll container, default as window */
@@ -36,21 +27,21 @@ export const isWindow = (obj: any) => {
  */
 export const getScroll = (
   target: HTMLElement | Window | Document | null,
-  top: boolean,
+  top: boolean
 ): number => {
-  if (typeof window === 'undefined') {
+  if (typeof window === "undefined") {
     return 0;
   }
-  const method = top ? 'scrollTop' : 'scrollLeft';
+  const method = top ? "scrollTop" : "scrollLeft";
   let result = 0;
   if (isWindow(target)) {
-    result = (target as Window)[top ? 'pageYOffset' : 'pageXOffset'];
+    result = (target as Window)[top ? "pageYOffset" : "pageXOffset"];
   } else if (target instanceof Document) {
     result = target.documentElement[method];
   } else if (target) {
     result = (target as HTMLElement)[method];
   }
-  if (target && !isWindow(target) && typeof result !== 'number') {
+  if (target && !isWindow(target) && typeof result !== "number") {
     result = ((target as HTMLElement).ownerDocument || (target as Document))
       .documentElement?.[method];
   }
@@ -75,13 +66,13 @@ export const scrollTo = (y: number, options: ScrollToOptions = {}) => {
       time > duration ? duration : time,
       scrollTop,
       y,
-      duration,
+      duration
     );
     if (isWindow(container)) {
       (container as Window).scrollTo(window.pageXOffset, nextScrollTop);
     } else if (
       container instanceof HTMLDocument ||
-      container.constructor.name === 'HTMLDocument'
+      container.constructor.name === "HTMLDocument"
     ) {
       (container as HTMLDocument).documentElement.scrollTop = nextScrollTop;
     } else {
@@ -89,7 +80,7 @@ export const scrollTo = (y: number, options: ScrollToOptions = {}) => {
     }
     if (time < duration) {
       raf(frameFunc);
-    } else if (typeof callback === 'function') {
+    } else if (typeof callback === "function") {
       callback();
     }
   };

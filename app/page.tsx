@@ -10,7 +10,8 @@ import SysIcon from "@components/SysIcon";
 // 图片
 import bgImgLight from "@public/images/1.jpg";
 import wallpaper from "@public/images/6.png";
-import headphoto from "@public/images/headphoto.png";
+import headPhoto from "@public/images/headphoto.png";
+
 import { timeAixsList } from "@utils/dict";
 import { loadingImag } from "@utils/dataImage";
 import styles from "@styles/home.module.css";
@@ -19,6 +20,7 @@ export default function Home() {
   const typeTarget = useRef<any>(null);
   const aboutDom = useRef<any>(null);
 
+  // 点击下部箭头
   const goAbout = () => {
     const aboutTop = aboutDom.current.offsetTop;
     scrollTo(aboutTop, {
@@ -69,9 +71,9 @@ export default function Home() {
             <div className={styles.line_c}></div>
           </div>
           <Image
-            className={styles.head_image}
-            src={headphoto}
-            alt="headphoto"
+            className={styles.head_photo}
+            src={headPhoto}
+            alt="headPhoto"
           />
         </div>
         <div className={styles.title}>Welcome my friend</div>
