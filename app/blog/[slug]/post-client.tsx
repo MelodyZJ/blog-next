@@ -55,7 +55,7 @@ const BlogDetails = (props) => {
 
   const { run } = useDebounceFn(
     () => {
-      getDate();
+      // getDate();
     },
     {
       wait: 500,

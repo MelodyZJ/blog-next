@@ -7,7 +7,9 @@ import Typed from "typed.js";
 import { bindHandleScroll, removeScroll } from "@utils/elementUtils";
 import { scrollTo } from "@utils/element";
 import SysIcon from "@components/SysIcon";
+// 图片
 import bgImgLight from "@public/images/1.jpg";
+import wallpaper from "@public/images/6.png";
 import headphoto from "@public/images/headphoto.png";
 import { timeAixsList } from "@utils/dict";
 import { loadingImag } from "@utils/dataImage";
@@ -90,7 +92,7 @@ export default function Home() {
         <div className={styles.project}></div>
       </div> */}
       <div className={styles.page_box} ref={aboutDom}>
-        <div className={styles.page_title}>GROWTH ABILITY</div>
+        <div className={styles.page_title}>BLOG TOOL</div>
         <div className={styles.page_desc}>博客项目更多功能入口</div>
         <div className={styles.page_list}>
           <div className={styles.page_item}>
@@ -98,16 +100,14 @@ export default function Home() {
               className={styles.page_item_bg}
               width={2000}
               height={1320}
-              src={
-                "https://api-render.wp-boke.work/picture/daily-bing?is_redirect=true"
-              }
+              src={wallpaper}
               alt="必应每日壁纸"
               placeholder="blur"
               blurDataURL={loadingImag}
               priority={true}
             />
             <Link className={styles.page_item_link} href="/wallpaper">
-              壁 纸
+              在 线 壁 纸
             </Link>
           </div>
           <div className={styles.page_item}>
@@ -124,13 +124,13 @@ export default function Home() {
               priority={true}
             />
             <Link className={styles.page_item_link} href="/news">
-              热 点
+              实 时 热 点
             </Link>
           </div>
         </div>
       </div>
       <div className={styles.timeAixs_box}>
-        <div className={styles.timeAixs_title}>GROWTH RECORD</div>
+        <div className={styles.timeAixs_title}>BLOG RECORD</div>
         <div className={styles.timeAixs_desc}>「 左右滑动查看 」</div>
         <div className={styles.timeAixs}>
           <div className={styles.timeAixs_left} />

@@ -2,48 +2,18 @@
 export const timeAixsList = [
   {
     id: 1,
-    time: "2021.06.01",
-    title: "申请域名 wp-boke.work",
+    time: "2024.01.18",
+    title: "NextJS重构",
   },
   {
     id: 2,
-    time: "2021.08.01",
-    title: "域名备案通过",
-  },
-  {
-    id: 3,
-    time: "2021.11.11",
+    time: "2024.11.11",
     title: "blog第一版发布",
   },
   {
-    id: 4,
-    time: "2022.03.11",
+    id: 3,
+    time: "2025.01.18",
     title: "blog第二版发版",
-  },
-  {
-    id: 5,
-    time: "2023.02.11",
-    title: "NextJS重构，blog第三版预发布，域名 shimmer.wp-boke.work",
-  },
-  {
-    id: 6,
-    time: "2023.03.11",
-    title: "NextJS重构，blog第三版正式发布，转移到正式域名wp-boke.work",
-  },
-  {
-    id: 7,
-    time: "2023.05.05",
-    title: "网站logo正式发布",
-  },
-  {
-    id: 8,
-    time: "2023.05.24",
-    title: "正式上线网站更多页，用于网站新功能开发",
-  },
-  {
-    id: 9,
-    time: "2024.01.24",
-    title: "使用nextjs14重写博客",
   },
 ];
 // 职业概述
@@ -54,43 +24,31 @@ export const web_desc =
 export const skillList = [
   {
     id: 1,
-    value: "HTML、CSS、JavaScript",
+    value: "HTML、CSS、JavaScript、TypeScript",
   },
   {
     id: 2,
-    value: "React、Vue.js",
+    value: "Vue2、Vue3、React、Uni-app、Electron、NextJs",
   },
   {
     id: 3,
-    value: "TypeScript",
+    value: "AntDesign、ElementPlus、Vuetify、Vant、uView、Echarts、Antv",
   },
   {
     id: 4,
-    value: "Ant Design、Element UI、Echarts、Antv",
-  },
-  {
-    id: 5,
-    value: "Redux、Vuex、MobX",
+    value: "Vuex、Pinia、Redux",
   },
   {
     id: 6,
-    value: "Node.js、Next.js、Nest.js、Koa、Egg.js",
+    value: "Webpack、Vite",
   },
   {
-    id: 7,
-    value: "Webpack、Babel/Gulp",
-  },
-  {
-    id: 8,
+    id: 6,
     value: "Sass、Less",
   },
   {
-    id: 9,
+    id: 7,
     value: "MySQL",
-  },
-  {
-    id: 10,
-    value: "RESTful API、计算机网络",
   },
 ];
 
