@@ -7,7 +7,8 @@ import Typed from "typed.js";
 import { bindHandleScroll, removeScroll } from "@utils/elementUtils";
 import { scrollTo } from "@utils/element";
 import SysIcon from "@components/SysIcon";
-import bgImgLight from "@public/images/bg00005.jpeg";
+import bgImgLight from "@public/images/1.jpg";
+import headphoto from "@public/images/headphoto.png";
 import { timeAixsList } from "@utils/dict";
 import { loadingImag } from "@utils/dataImage";
 import styles from "@styles/home.module.css";
@@ -59,6 +60,18 @@ export default function Home() {
       </div>
       <div className={styles.bg_mask} id="bg_mask" />
       <div className={styles.bg_content}>
+        <div className={styles.head_box}>
+          <div className={styles.line_box}>
+            <div className={styles.line_a}></div>
+            <div className={styles.line_b}></div>
+            <div className={styles.line_c}></div>
+          </div>
+          <Image
+            className={styles.head_image}
+            src={headphoto}
+            alt="headphoto"
+          />
+        </div>
         <div className={styles.title}>Welcome my friend</div>
         <div className={styles.description_box}>
           <div className={styles.description} ref={typeTarget} />

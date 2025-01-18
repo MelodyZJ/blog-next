@@ -34,8 +34,69 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 70px 0;
   position: relative;
+}
+
+.head_box {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.head_box .line_box {
+  width: 225px;
+  height: 225px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+}
+
+.line_box .line_a,
+.line_box .line_b,
+.line_box .line_c {
+  transition: 0.7s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #fff;
+  border-radius: 38% 62% 63% 37%/ 41% 44% 56% 59%;
+  animation: rotate 10s infinite linear;
+}
+
+.line_box .line_b {
+  border-radius: 38% 62% 63% 37%/ 41% 44% 56% 59%;
+  animation: rotate 8s infinite linear;
+}
+
+.line_box .line_c {
+  border-radius: 38% 62% 63% 37%/ 41% 44% 56% 59%;
+  animation: rotate 6s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.line_box:hover .line_a,
+.line_box:hover .line_a::before,
+.line_box:hover .line_a::after {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.head_box .head_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: -170px;
 }
 
 .bg_content .title {
@@ -63,7 +124,7 @@
   font-size: 26px;
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* 添加黑色阴影 */
-  font-family: "楷体","华文楷体";
+  font-family: "楷体", "华文楷体";
   text-align: center;
 }
 
@@ -285,7 +346,7 @@
     font-size: 28px;
   }
 
-  .description_box .description{
+  .description_box .description {
     font-size: 20px;
   }
 
