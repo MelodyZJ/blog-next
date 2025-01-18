@@ -15,20 +15,6 @@ const Footer = () => {
         <div className={style.title}>站内索引</div>
         <Link
           className={`${style.link} ${style.link_click}`}
-          href="/sitemap"
-          target="_blank"
-        >
-          站点地图
-        </Link>
-        <Link
-          className={`${style.link} ${style.link_click}`}
-          href="/rss"
-          target="_blank"
-        >
-          RSS订阅
-        </Link>
-        <Link
-          className={`${style.link} ${style.link_click}`}
           href="/friendly-links"
         >
           友情链接
@@ -44,45 +30,14 @@ const Footer = () => {
           target="_blank"
         >
           <Image
-            width={200}
-            height={16}
-            style={{ width: "auto", height: "16px" }}
+            width={60}
+            height={20}
             src={
               theme === 1
                 ? "https://img.foreverblog.cn/wormhole_1_tp.gif"
                 : "https://img.foreverblog.cn/wormhole_3_tp.gif"
             }
             alt="十年之约-虫洞"
-          />
-        </Link>
-        <Link
-          className={`${style.link} ${style.link_click}`}
-          href="https://www.travellings.cn/go.html"
-          aria-label="travellings"
-          rel="nofollow noopener noreferrer"
-          target="_blank"
-        >
-          <Image
-            className={style.link_img}
-            width={200}
-            alt="开往"
-            src={theme === 1 ? TravellingLight : TravellingDark}
-            priority={true}
-          />
-        </Link>
-        <Link
-          className={`${style.link} ${style.link_click}`}
-          href="https://www.foreverblog.cn/"
-          aria-label="foreverblog"
-          rel="nofollow noopener noreferrer"
-          target="_blank"
-        >
-          <Image
-            width={200}
-            height={14}
-            style={{ width: "auto", height: "14px" }}
-            src="https://img.foreverblog.cn/logo_en_default.png"
-            alt="十年之约"
           />
         </Link>
       </div>
@@ -138,7 +93,7 @@ const Footer = () => {
             rel="nofollow noopener noreferrer"
             target="_blank"
           >
-            京ICP备2022004838号-1
+            {/* 京ICP备2022004838号-1 */}
           </Link>
         </div>
       </div>

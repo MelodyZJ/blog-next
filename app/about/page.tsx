@@ -39,7 +39,7 @@ const About = (props) => {
         />
         <div className={style.title}>Me</div>
         <div className={style.info}>
-          Hi！我是Shimmer🌈，在北京工作，目前从事Web前端工程师。
+          Hi！我是瓶中星辰🌈，目前在成都工作，从事Web前端工程师。
           <Link className={style.toResume} href={"/resume"} target="_self">
             （了解更多请点击这里）
           </Link>
@@ -52,11 +52,11 @@ const About = (props) => {
         <div className={style.contact}>
           <div className={style.contact_item}>
             <div className={style.contact_item_key}>Email:</div>
-            <div className={style.contact_item_value}>webwp0403@163.com</div>
+            <div className={style.contact_item_value}>1739593209@qq.com</div>
           </div>
           <div className={style.contact_item}>
             <div className={style.contact_item_key}>微信:</div>
-            <div className={style.contact_item_value}>wp0403-</div>
+            <div className={style.contact_item_value}>ZJ1739593209</div>
           </div>
         </div>
       </div>

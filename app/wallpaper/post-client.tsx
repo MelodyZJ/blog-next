@@ -29,7 +29,7 @@ const PostClient = (props) => {
       setLoading(true);
       const { data } = await getDataApi({
         type: "apiRender_picture_list360",
-        params: { page_size: 30, type_id: currentType, page },
+        params: { page_size: 21, type_id: currentType, page },
       });
       setPictureList(data.data);
       setTotal(data.meta.total);

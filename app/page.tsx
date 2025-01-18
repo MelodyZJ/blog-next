@@ -37,8 +37,6 @@ export default function Home() {
       ],
       typeSpeed: 60,
       backSpeed: 40,
-      loop: true,
-      loopCount: Infinity,
       autoInsertCss: false,
       backDelay: 2000,
       showCursor: false,
