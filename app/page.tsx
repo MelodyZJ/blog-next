@@ -144,9 +144,9 @@ export default function Home() {
               blurDataURL={loadingImag}
               priority={true}
             />
-            <div className={styles.page_item_link} onClick={goDinosaur}>
+            <Link className={styles.page_item_link} href="/pages/dinosaur">
               恐 龙 快 跑
-            </div>
+            </Link>
           </div>
           <div className={styles.page_item}>
             <Image
