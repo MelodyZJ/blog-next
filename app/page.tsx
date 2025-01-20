@@ -12,6 +12,7 @@ import bgImgLight from "@public/images/1.jpg";
 import wallpaper from "@public/images/6.png";
 import headPhoto from "@public/images/headphoto.png";
 import dinosaur from "@public/images/dinosaur.jpg";
+import about_3 from "@public/images/about_3.jpg";
 
 import { timeAixsList } from "@utils/dict";
 import { loadingImag } from "@utils/dataImage";
@@ -27,6 +28,10 @@ export default function Home() {
     scrollTo(aboutTop, {
       getContainer: () => document.body || window,
     });
+  };
+
+  const goDinosaur = () => {
+    window.location.href = "../public/dinosaur/index.html";
   };
 
   useEffect(() => {
@@ -139,23 +144,17 @@ export default function Home() {
               blurDataURL={loadingImag}
               priority={true}
             />
-            <Link
-              className={styles.page_item_link}
-              href="/public/dinosaur/index.html"
-              target="_blank"
-            >
+            <div className={styles.page_item_link} onClick={goDinosaur}>
               恐 龙 快 跑
-            </Link>
+            </div>
           </div>
           <div className={styles.page_item}>
             <Image
               className={styles.page_item_bg}
               width={2000}
               height={1320}
-              src={
-                "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg"
-              }
-              alt="热点"
+              src={about_3}
+              alt="完成项目"
               placeholder="blur"
               blurDataURL={loadingImag}
               priority={true}
