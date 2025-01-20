@@ -899,13 +899,13 @@ export const moreList = [
     id: "resume",
     title: "我的简历",
     desc: "我的个人简历",
-    url: "/resume",
+    url: "/pages/resume",
   },
   {
     id: "visitor",
     title: "访客列表",
     desc: "访客的信息",
-    url: "/visitor",
+    url: "/pages/visitor",
   },
   {
     id: "start-pages",
@@ -935,6 +935,6 @@ export const moreList = [
   //     id: "audiovisuals",
   //     title: "音乐&MV",
   //     desc: "我喜欢的一些音乐和mv",
-  //     url: "/audiovisuals",
+  //     url: "/pages/audiovisuals",
   // },
 ];

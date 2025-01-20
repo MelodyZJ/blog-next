@@ -43,7 +43,7 @@ const Archive = (props) => {
               <div className={style.year}>{v?.year}</div>
               {v?.children?.map((item) => (
                 <Link
-                  href={`/blog-details/${item.id}`}
+                  href={`/pages/blog-details/${item.id}`}
                   className={style.class_item}
                   key={item.id}
                 >

@@ -28,7 +28,7 @@ const ClassifyPrevOrNext = (props: Props) => {
     <div className={style.prev_next}>
       <Link
         className={style.prev}
-        href={data[0]?.obj.id ? `/blog-details/${data[0]?.obj.id}` : ""}
+        href={data[0]?.obj.id ? `/pages/blog-details/${data[0]?.obj.id}` : ""}
         onClick={(e) => (data[0]?.obj.id ? "" : e.preventDefault())}
       >
         <div className={style.prev_title}>上一篇</div>
@@ -42,7 +42,7 @@ const ClassifyPrevOrNext = (props: Props) => {
       </Link>
       <Link
         className={style.next}
-        href={data[1]?.obj.id ? `/blog-details/${data[1]?.obj.id}` : ""}
+        href={data[1]?.obj.id ? `/pages/blog-details/${data[1]?.obj.id}` : ""}
         onClick={(e) => (data[1]?.obj.id ? "" : e.preventDefault())}
       >
         <div className={style.next_title}>下一篇</div>

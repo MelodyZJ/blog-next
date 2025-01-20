@@ -81,7 +81,7 @@ const BlogDetails = (props) => {
         <div className={style.blog_item_content}>
           <Link
             className={style.blog_item_title}
-            href={`/blog-details/${item.id}`}
+            href={`/pages/blog-details/${item.id}`}
           >
             {item.title}
           </Link>
@@ -153,7 +153,9 @@ const BlogDetails = (props) => {
                   keyword
                     ? setSearchPage(v)
                     : router.push(
-                        isType ? `/blog-classify/${type}/${v}` : `/blog/${v}`
+                        isType
+                          ? `/pages/blog-classify/${type}/${v}`
+                          : `/pages/blog/${v}`
                       )
                 }
               />

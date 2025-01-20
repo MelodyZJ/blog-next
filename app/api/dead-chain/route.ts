@@ -8,7 +8,11 @@ export async function GET(req: Request, res: Response) {
   });
 
   // Add URLs to the Sitemap stream
-  const pages = ["/blog-details/38", "/secret", "/blog-details/45"];
+  const pages = [
+    "/pages/blog-details/38",
+    "/pages/secret",
+    "/pages/blog-details/45",
+  ];
   pages?.map((v) => sitemapStream.write({ url: `${v}` }));
   // ...
 

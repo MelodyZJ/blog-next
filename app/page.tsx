@@ -106,7 +106,7 @@ export default function Home() {
               blurDataURL={loadingImag}
               priority={true}
             />
-            <Link className={styles.page_item_link} href="/wallpaper">
+            <Link className={styles.page_item_link} href="/pages/wallpaper">
               在 线 壁 纸
             </Link>
           </div>
@@ -123,7 +123,7 @@ export default function Home() {
               blurDataURL={loadingImag}
               priority={true}
             />
-            <Link className={styles.page_item_link} href="/news">
+            <Link className={styles.page_item_link} href="/pages/news">
               实 时 热 点
             </Link>
           </div>

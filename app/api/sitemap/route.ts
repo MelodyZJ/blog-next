@@ -19,14 +19,14 @@ export async function GET(req: Request, res: Response) {
   // Add URLs to the Sitemap stream
   const pages = [
     "/",
-    "/archive",
-    "/tree-hole",
-    "/photography",
-    "/about",
-    "/resume",
-    "/friendly-links",
-    "/disclaimers",
-    "/copyright-notice",
+    "/pages/archive",
+    "/pages/tree-hole",
+    "/pages/photography",
+    "/pages/about",
+    "/pages/resume",
+    "/pages/friendly-links",
+    "/pages/disclaimers",
+    "/pages/copyright-notice",
   ];
   pages?.map((v) => sitemapStream.write({ url: `${v}` }));
 
@@ -35,7 +35,7 @@ export async function GET(req: Request, res: Response) {
 
   classifyList?.map((v) =>
     sitemapStream.write({
-      url: `/blog-details/${v.id}`,
+      url: `/pages/blog-details/${v.id}`,
     })
   );
   // ...
