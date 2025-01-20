@@ -11,6 +11,7 @@ import SysIcon from "@components/SysIcon";
 import bgImgLight from "@public/images/1.jpg";
 import wallpaper from "@public/images/6.png";
 import headPhoto from "@public/images/headphoto.png";
+import dinosaur from "@public/images/dinosaur.jpg";
 
 import { timeAixsList } from "@utils/dict";
 import { loadingImag } from "@utils/dataImage";
@@ -101,7 +102,7 @@ export default function Home() {
               width={2000}
               height={1320}
               src={wallpaper}
-              alt="必应每日壁纸"
+              alt="在线壁纸"
               placeholder="blur"
               blurDataURL={loadingImag}
               priority={true}
@@ -118,13 +119,49 @@ export default function Home() {
               src={
                 "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg"
               }
-              alt="热点"
+              alt="实时热点"
               placeholder="blur"
               blurDataURL={loadingImag}
               priority={true}
             />
             <Link className={styles.page_item_link} href="/pages/news">
               实 时 热 点
+            </Link>
+          </div>
+          <div className={styles.page_item}>
+            <Image
+              className={styles.page_item_bg}
+              width={2000}
+              height={1320}
+              src={dinosaur}
+              alt="恐龙快跑"
+              placeholder="blur"
+              blurDataURL={loadingImag}
+              priority={true}
+            />
+            <Link
+              className={styles.page_item_link}
+              href="/public/dinosaur/index.html"
+              target="_blank"
+            >
+              恐 龙 快 跑
+            </Link>
+          </div>
+          <div className={styles.page_item}>
+            <Image
+              className={styles.page_item_bg}
+              width={2000}
+              height={1320}
+              src={
+                "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg"
+              }
+              alt="热点"
+              placeholder="blur"
+              blurDataURL={loadingImag}
+              priority={true}
+            />
+            <Link className={styles.page_item_link} href="/pages/news">
+              完 成 项 目
             </Link>
           </div>
         </div>
