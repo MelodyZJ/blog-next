@@ -33,7 +33,7 @@
   color: var(--txt-w-pure);
 }
 
-.logo_text{
+.logo_text {
   font-family: "华文隶书";
 }
 
@@ -57,18 +57,33 @@
   display: flex;
   align-items: center;
   color: var(--txt-w-pure);
+  position: relative;
 }
 
 /* 当前选中导航的样式 */
-.nav_item_active{
-  background-color: var(--b-alpha-5);
-  border-radius: 5px;
+.nav_item_active {
+  color: var(--txt-w-pure);
 }
 
 .nav_item:hover {
-  background-color: var(--b-alpha-5);
-  border-radius: 5px;
   color: var(--txt-w-pure);
+}
+
+.nav_item:hover:after {
+  width: 90%;
+}
+
+.nav_item:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.5s ease;
+  left: 12px;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  border-raduis: 5px;
+  background: #727cf5;
 }
 
 .nav_item_icon {

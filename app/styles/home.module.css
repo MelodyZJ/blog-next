@@ -143,13 +143,24 @@
   font-size: 36px;
   color: var(--txt-w-pure);
   font-weight: bold;
-  opacity: 0.7;
   transition: 0.45s;
   cursor: pointer;
+  animation: bounceArrow 2s infinite ease;
 }
 
 .bg_content .jiantou_icon:hover {
   opacity: 1;
+}
+
+@keyframes bounceArrow {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-20px);
+    opacity: 1;
+  }
 }
 
 .project_box {

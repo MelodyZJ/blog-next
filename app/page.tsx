@@ -30,10 +30,6 @@ export default function Home() {
     });
   };
 
-  const goDinosaur = () => {
-    window.location.href = "../public/dinosaur/index.html";
-  };
-
   useEffect(() => {
     bindHandleScroll();
     const typed = new Typed(typeTarget.current, {
