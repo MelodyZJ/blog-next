@@ -24,7 +24,7 @@
   padding: 0 8px;
   height: 28px;
   border-radius: 13px;
-  box-shadow: 10px 10px 5px var(--b-alpha-10);
+  box-shadow: 5px 5px 5px var(--b-alpha-10);
   color: var(--b-alpha-80);
   cursor: pointer;
   transition: 0.25s;
@@ -32,15 +32,13 @@
 
 .type_item:hover {
   background-color: var(--purple-text);
-  box-shadow: 10px 10px 5px var(--purple-text-hover);
-  color: var(--w-alpha);
+  box-shadow: 5px 5px 5px var(--purple-text-hover);
   font-weight: 500;
 }
 
 .type_item_active {
   background-color: var(--purple-text-active);
-  box-shadow: 10px 10px 5px var(--purple-text-hover);
-  color: var(--w-alpha);
+  box-shadow: 5px 5px 5px var(--purple-text-hover);
   font-weight: 500;
 }
 

@@ -13,6 +13,7 @@
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version */
+  transition: 0.4s;
 }
 
 .nav_left {
@@ -30,6 +31,10 @@
 
 .title:hover {
   color: var(--txt-w-pure);
+}
+
+.logo_text{
+  font-family: "华文隶书";
 }
 
 .nav_right {

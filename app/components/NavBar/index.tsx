@@ -75,7 +75,7 @@ export default function Navbar() {
       <nav className={styles.nav} id="layout_nav">
         <div className={styles.nav_left}>
           <Link className={`${styles.title} nav_item_text`} href="/">
-            <Image
+            {/* <Image
               className={`${styles.logo} logo-auto`}
               width={100}
               alt="about"
@@ -88,13 +88,15 @@ export default function Navbar() {
               alt="about"
               src={logo_white}
               priority={true}
-            />
+            /> */}
+            <span className={styles.logo_text}>MelodyZJ</span>
           </Link>
         </div>
         <div className={styles.nav_right}>
           <div className={styles.nav_list}>
             {navList?.map((v) => navItem(v))}
           </div>
+          {/* 主题切换按钮 */}
           <div className={styles.nav_type} onClick={() => themeSwitch("click")}>
             <SysIcon
               className={`${styles.nav_type_item} ${
