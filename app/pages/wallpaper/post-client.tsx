@@ -29,7 +29,7 @@ const PostClient = (props) => {
       setLoading(true);
       const { data } = await getDataApi({
         type: "apiRender_picture_list360",
-        params: { page_size: 21, type_id: currentType, page },
+        params: { page_size: 24, type_id: currentType, page },
       });
       setPictureList(data.data);
       setTotal(data.meta.total);
@@ -85,7 +85,6 @@ const PostClient = (props) => {
                 src={item.url}
                 alt={item.tag}
                 preview={{ maskClassName: styles.picture_item }}
-                placeholder={true}
               />
             ))}
           </AntImage.PreviewGroup>
@@ -96,7 +95,7 @@ const PostClient = (props) => {
           <PagerComponent
             total={total}
             current={page}
-            pageSize={30}
+            pageSize={24}
             onChange={(v) => {
               setPage(v);
               routeChangeComplete();

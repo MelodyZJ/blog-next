@@ -83,7 +83,7 @@
   width: 0;
   height: 3px;
   border-raduis: 5px;
-  background: #727cf5;
+  background: var(--color-blue-hover);
 }
 
 .nav_item_icon {

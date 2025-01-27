@@ -7,12 +7,12 @@
 
 .type_box {
   width: 70%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 24px;
   display: grid;
-  gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 }
 
 .type_item {
@@ -20,64 +20,66 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 14px;
   padding: 0 8px;
-  height: 28px;
-  border-radius: 13px;
-  box-shadow: 5px 5px 5px var(--b-alpha-10);
-  color: var(--b-alpha-80);
+  height: 36px;
+  border-radius: 18px;
+  box-shadow: 0px 5px 3px var(--b-alpha-5);
+  color: var(--b-alpha);
   cursor: pointer;
-  transition: 0.25s;
+  transition: all 0.3s ease;
 }
 
 .type_item:hover {
+  color: white;
   background-color: var(--purple-text);
-  box-shadow: 5px 5px 5px var(--purple-text-hover);
+  box-shadow: 5px 5px 3px var(--purple-text-hover);
   font-weight: 500;
 }
 
 .type_item_active {
-  background-color: var(--purple-text-active);
-  box-shadow: 5px 5px 5px var(--purple-text-hover);
+  color: white;
+  background-color: var(--purple-text);
+  box-shadow: 5px 5px 3px var(--purple-text-hover);
   font-weight: 500;
 }
 
 .picture_box {
   width: 70%;
-  max-width: 1000px;
+  max-width: 1200px;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 24px;
   display: grid;
-  gap: 15px;
+  gap: 20px;
   grid-template-columns: repeat(4, 1fr);
 }
 
 .picture_box_loading {
   width: calc(70% - 48px);
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 24px;
-  background-color: var(--b-alpha-5);
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 200px;
-  border-radius: 14px;
+  min-height: 100vh;
 }
 
 .picture_item {
   width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--b-alpha-5);
 }
 
 .pager_box {
   width: 100%;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1200px;
   padding: 0 24px 24px;
   display: flex;
   align-items: center;

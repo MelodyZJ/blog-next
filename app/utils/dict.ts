@@ -2,18 +2,18 @@
 export const timeAixsList = [
   {
     id: 1,
-    time: "2024.01.18",
-    title: "NextJS重构",
+    time: "2023.03.08",
+    title: "blog第一版HTML开发",
   },
   {
     id: 2,
-    time: "2024.11.11",
-    title: "blog第一版发布",
+    time: "2024.05.11",
+    title: "blog第二版Vue重构",
   },
   {
     id: 3,
     time: "2025.01.18",
-    title: "blog第二版发版",
+    title: "blog第三版NextJs重构(SSR)",
   },
 ];
 // 职业概述
@@ -32,7 +32,7 @@ export const skillList = [
   },
   {
     id: 3,
-    value: "AntDesign、ElementPlus、Vuetify、Vant、uView、Echarts、Antv",
+    value: "ElementPlus、AntDesign、Vuetify、Vant、uView、Echarts、Antv",
   },
   {
     id: 4,
@@ -45,10 +45,6 @@ export const skillList = [
   {
     id: 6,
     value: "Sass、Less",
-  },
-  {
-    id: 7,
-    value: "MySQL",
   },
 ];
 

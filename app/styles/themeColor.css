@@ -1,8 +1,8 @@
 :root {
-  --ct-body-font-family: "PingFang SC", "Hiragino Sans GB",
-    "Microsoft Yahei", "Microsoft Jhenghei", sans-serif;
+  --ct-body-font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei",
+    "Microsoft Jhenghei", sans-serif;
   --ct-theme: linear-gradient(rgb(57, 89, 138), rgb(121, 215, 237));
-  --ct-theme-border: 2px solid rgb(255, 255, 255);
+  --ct-theme-border: 2px solid rgb(255, 255, 255,0.8);
   --w-alpha-0: rgba(255, 255, 255, 0);
   --w-alpha-5: rgba(255, 255, 255, 0.05);
   --w-alpha-10: rgba(255, 255, 255, 0.1);
@@ -49,9 +49,9 @@
   --purple-border-hover: #c9d1ff;
   --purple-bg: #f0f4ff;
   --purple-bg-hover: #f0f3ff;
-  --image-preview-mask: rgb(255,255,255);
+  --image-preview-mask: rgb(255, 255, 255);
   --color-blue: #1677ff;
-  --color-blue-hover: #4096ff;
+  --color-primary: #4096ff;
   --color-blue-bg: #e6f4ff;
   --color-blue-bg-hover: #bae0ff;
   --color-blue-border: #91caff;
@@ -102,7 +102,7 @@
   --purple-border-hover: #3e4379;
   --purple-bg: #1a1b2a;
   --purple-bg-hover: #252643;
-  --image-preview-mask: rgb(50,50,50);
+  --image-preview-mask: rgb(50, 50, 50);
   --color-blue: #1677ff;
   --color-blue-hover: #3c89e8;
   --color-blue-bg: #111a2c;
@@ -111,7 +111,7 @@
   --color-blue-border-hover: #15417e;
 }
 
-:root{
+:root {
   --code-color-1: #333;
   --code-color-2: #998;
   --code-color-3: teal;
@@ -128,7 +128,7 @@
   --code-bg-3: #dfd;
 }
 
-.dark{
+.dark {
   --code-color-1: #ccc;
   --code-color-2: #667;
   --code-color-3: #ff7f7f;

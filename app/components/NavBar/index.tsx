@@ -1,13 +1,10 @@
 "use client";
 
 import Link from "next/link";
-// import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useCallback, useContext, useEffect, useState } from "react";
 import SysIcon from "../SysIcon";
 import { navList } from "./routes";
-// import logo_black from "@public/images/logo_black.png";
-// import logo_white from "@public/images/logo_white.png";
 import { handleThemeChange } from "@utils/dataUtils";
 import { LayoutContext } from "@store/layoutStore";
 import styles from "./navBar.module.css";

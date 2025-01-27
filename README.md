@@ -4,32 +4,11 @@
 
 ## 功能特点
 
-[🟢] [个人主页](https://wp-boke.work)
-
-[🟢] [文章列表](https://wp-boke.work/blog/1)
-
-[🟢] [文归档](https://wp-boke.work/archive)
-
-[🟢] [树洞](https://wp-boke.work/tree-hole)
-
-[🟢] [摄影](https://wp-boke.work/photography)
-
-[🟢] [关于](https://wp-boke.work/about)
-
-[🟢] [我的简历](https://wp-boke.work/resume)
-
-[🟢] [访客列表](https://wp-boke.work/visitor)
-
-[🟢] [友情链接](https://wp-boke.work/friendly-links)
-
-[🟢] [更多](https://wp-boke.work/more)
 
 ## 技术栈
 
 - Next.js：[Next.js](https://nextjs.org/) 是一个使用 React 进行服务端渲染的框架。
 - Vercel：[Vercel](https://vercel.com/) 是一个用于快速部署静态网站和服务器渲染应用程序的平台。
-- Egg.js：[Egg.js](https://eggjs.org/) 是一个基于 Node.js 和 Koa 的企业级后端开发框架。
-- MySQL：[MySQL](https://www.mysql.com/) 是一个流行的关系型数据库管理系统。
 
 ## 开始使用
 
