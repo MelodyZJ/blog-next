@@ -75,20 +75,6 @@ export default function Navbar() {
       <nav className={styles.nav} id="layout_nav">
         <div className={styles.nav_left}>
           <Link className={`${styles.title} nav_item_text`} href="/">
-            {/* <Image
-              className={`${styles.logo} logo-auto`}
-              width={100}
-              alt="about"
-              src={theme === 2 ? logo_black : logo_white}
-              priority={true}
-            />
-            <Image
-              className={`${styles.logo} logo-light`}
-              width={100}
-              alt="about"
-              src={logo_white}
-              priority={true}
-            /> */}
             <span className={styles.logo_text}>MelodyZJ</span>
           </Link>
         </div>

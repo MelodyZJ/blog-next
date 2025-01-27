@@ -88,11 +88,6 @@ export default function Home() {
           />
         </div>
       </div>
-      {/* <div className={styles.project_box} ref={aboutDom}>
-        <div className={styles.project_title}>BLOG GROWTH RECORD</div>
-        <div className={styles.project_desc}>更多的作品</div>
-        <div className={styles.project}></div>
-      </div> */}
       <div className={styles.page_box} ref={aboutDom}>
         <div className={styles.page_title}>BLOG TOOL</div>
         <div className={styles.page_desc}>博客项目更多功能入口</div>
@@ -129,7 +124,7 @@ export default function Home() {
               实 时 热 点
             </Link>
           </div>
-          <div className={styles.page_item}>
+          {/* <div className={styles.page_item}>
             <Image
               className={styles.page_item_bg}
               width={2000}
@@ -158,7 +153,7 @@ export default function Home() {
             <Link className={styles.page_item_link} href="/pages/news">
               完 成 项 目
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className={styles.timeAixs_box}>
