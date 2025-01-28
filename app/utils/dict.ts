@@ -481,7 +481,7 @@ export const projectList = [
   },
   {
     id: 1106,
-    projectName: "医疗健康管理平台",
+    projectName: "医疗健康管理系统",
     projectTime: "2023.1 - 2024.1.19",
     desc: "该项目是为公司领导提供数据可视化展示的一个网页，主要用于查看公司各项运营指标和财务指标等信息。",
     lectotype: "Vue3 + Antd Vue + Echarts",

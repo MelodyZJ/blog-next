@@ -37,6 +37,7 @@ export default function Home() {
         "心事浩茫连广宇，于无声处听惊雷。",
         "莫听穿林打叶声，何妨吟啸且徐行。",
       ],
+      loop: true,
       typeSpeed: 60,
       backSpeed: 40,
       autoInsertCss: false,
