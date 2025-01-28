@@ -6,10 +6,8 @@
 @font-face {
   font-family: "阿里妈妈东方大楷 Regular";
   font-weight: 400;
-  src: url("./font/VjlkfcVsDrtK.woff2")
-      format("woff2"),
-    url("./font/VjlkfcVsDrtK.woff")
-      format("woff");
+  src: url("./font/VjlkfcVsDrtK.woff2") format("woff2"),
+    url("./font/VjlkfcVsDrtK.woff") format("woff");
   font-display: swap;
 }
 
@@ -156,43 +154,79 @@ body {
 }
 
 /* nav start */
+/* 顶部栏渐变效果 */
 .nav_active {
+  height: 80px;
   background-color: var(--w-alpha-40);
   backdrop-filter: blur(8px);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-  transition: 0.4s;
+  transition: all 0.4s ease;
 }
 
-.logo-light{
+/* 伪元素，用于创建渐变效果 */
+.nav_active::before {
+  content: "";
+  position: absolute;
+  top: 100%; /* 初始位置在导航栏的底部外 */
+  left: 0;
+  right: 0;
+  height: 0;
+  background: linear-gradient(to top, transparent, var(--w-alpha-40));
+  transition: height 0.4s ease;
+}
+
+.logo-light {
   display: block;
 }
 
-.logo-auto{
+.logo-auto {
   display: none;
 }
 
-.nav_active .logo-auto,.nav_active_border .logo-auto{
+.nav_active .logo-auto,
+.nav_active_border .logo-auto {
   display: block;
 }
 
-.nav_active .logo-light,.nav_active_border .logo-light{
+.nav_active .logo-light,
+.nav_active_border .logo-light {
   display: none;
 }
 
-#layout_nav.nav_none {
+/* #layout_nav.nav_none {
   opacity: 0;
   transition: 0.4s;
   pointer-events: none;
-}
+} */
 /* nav end */
 
 /* page loading */
-.all-page-loading{
+.all-page-loading {
   position: absolute;
   left: 0;
   top: 0;
   z-index: -10;
   opacity: 0;
+}
+
+/* 针对 WebKit 浏览器（如 Chrome、Safari） */
+::-webkit-scrollbar {
+  width: 12px; /* 滚动条的宽度 */
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #b7b8b9;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5e8a9c;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
 }
 
 @media screen and (max-width: 900px) {
