@@ -24,27 +24,27 @@ export const web_desc =
 export const skillList = [
   {
     id: 1,
-    value: "HTML、CSS、JavaScript、TypeScript",
+    value: "编程语言：HTML、CSS、JavaScript、TypeScript",
   },
   {
     id: 2,
-    value: "Vue2、Vue3、React、Uni-app、Electron、NextJs",
+    value: "掌握框架：Vue2、Vue3、React、Uni-app、NextJs、Electron",
   },
   {
     id: 3,
-    value: "ElementPlus、AntDesign、Vuetify、Vant、uView、Echarts、Antv",
+    value: "状态工具：Vuex、Pinia、Redux",
   },
   {
     id: 4,
-    value: "Vuex、Pinia、Redux",
+    value: "打包工具：Webpack、Vite",
+  },
+  {
+    id: 5,
+    value: "CSS工具：Sass、Less",
   },
   {
     id: 6,
-    value: "Webpack、Vite",
-  },
-  {
-    id: 6,
-    value: "Sass、Less",
+    value: "掌握组件库：ElementPlus、Vuetify、Vant、Echarts、Antv、AntDesign等",
   },
 ];
 
@@ -52,14 +52,15 @@ export const skillList = [
 export const workList = [
   {
     id: 1108,
-    companyName: "美团",
-    workTime: "2024.6.17 - 至今",
-    role: "核心本地商业商家前端组/Web前端",
-    place: "北京",
+    companyName: "成都恒速科技有限公司",
+    workTime: "2024.1.17 - 至今",
+    role: "Web前端工程师",
+    place: "成都",
     operatingDuty: [
       {
         id: 1,
-        value: "负责编写自定义组件，提升前端开发的可复用性和效率；",
+        value:
+          "湖南长沙国家电网总部基地驻场八个月，负责电网项目前端主体开发工作",
       },
       {
         id: 2,
@@ -73,113 +74,26 @@ export const workList = [
         id: 4,
         value: "与设计和后端团队密切合作，确保项目的顺利进行；",
       },
-      {
-        id: 5,
-        value: "参与产品的优化和性能提升，确保用户体验的流畅性；",
-      },
     ],
   },
   {
     id: 1109,
-    companyName: "北京国人通教育有限公司",
-    workTime: "2024.4.19 - 2024.6.14",
+    companyName: "四川民图科技有限公司",
+    workTime: "2023.3.19 - 2024.1.17",
     role: "Web前端开发工程师",
-    place: "北京",
+    place: "泸州",
     operatingDuty: [
       {
         id: 1,
-        value: "负责主页门户开发，提供iframe嵌入能力，简化门户搭建；",
+        value: "负责多个项目的前端开发工作，包括页面设计和交互实现",
       },
       {
         id: 2,
-        value: "负责管理端驾驶舱开发，供给租户数据统计查看；",
-      },
-      {
-        id: 3,
         value: "协助测试团队进行测试，并解决测试过程中的问题和反馈；",
       },
       {
-        id: 4,
-        value: "设计和开发Web前端组件，提高开发效率；",
-      },
-      {
-        id: 5,
-        value: "提出业务中存在的问题，优化产品体验。",
-      },
-    ],
-  },
-  {
-    id: 1110,
-    companyName: "华兴资本",
-    workTime: "2021.8 - 至今",
-    role: "Web前端开发工程师",
-    place: "北京",
-    operatingDuty: [
-      {
-        id: 1,
-        value: "创建并维护Web前端开发项目的代码库，协作实施时间表；",
-      },
-      {
-        id: 2,
-        value: "跟踪并了解前端开发技术的发展，维护和优化现有项目；",
-      },
-      {
         id: 3,
-        value: "协助测试团队进行测试，并解决测试过程中的问题和反馈；",
-      },
-      {
-        id: 4,
         value: "设计和开发Web前端组件，提高开发效率；",
-      },
-      {
-        id: 5,
-        value:
-          "与UI设计师和产品经理合作，确保网站的外观和功能符合设计要求和用户期望；",
-      },
-      {
-        id: 6,
-        value: "编写文档和注释，以便其他开发人员能够轻松地维护和扩展网站；",
-      },
-      {
-        id: 7,
-        value: "优化网站的性能和速度，提高用户体验。",
-      },
-    ],
-  },
-  {
-    id: 1111,
-    companyName: "乐纯悠品",
-    workTime: "2020.3 - 2021.8",
-    role: "Web前端开发工程师",
-    place: "北京",
-    operatingDuty: [
-      {
-        id: 1,
-        value: "设计和开发高可用性和可访问性的网站，确保良好的用户体验；",
-      },
-      {
-        id: 2,
-        value: "使用HTML、CSS和JavaScript等技术编写高质量的代码；",
-      },
-      {
-        id: 3,
-        value: "与后端开发人员协作，确保正确的服务器通信和交互；",
-      },
-      {
-        id: 4,
-        value: "使用React和Vue.js等框架开发网站前端，提高开发效率和代码质量；",
-      },
-      {
-        id: 5,
-        value: "对网站进行测试和调试，确保稳定性和安全性；",
-      },
-      {
-        id: 6,
-        value: "解决网站开发过程中的各种问题；",
-      },
-      {
-        id: 7,
-        value: "编写文档和注释，以便其他开发人员能够轻松地维护和扩展网站。",
       },
     ],
   },
@@ -189,8 +103,8 @@ export const workList = [
 export const projectList = [
   {
     id: 1112,
-    projectName: "大客系统",
-    projectTime: "2024.6 - 至今",
+    projectName: "湖南省国家电网微信机器人后台管理系统",
+    projectTime: "2024.2 - 2024.10",
     desc: "大客系统是美团PC端的客户关系管理系统，旨在展示客户数据和关系，提升客户服务效率。",
     lectotype: "Vue2 + Vuex + MTD Vue2",
     jobOrContribute: [
@@ -235,7 +149,7 @@ export const projectList = [
   },
   {
     id: 1113,
-    projectName: "新版鲁班系统",
+    projectName: "中国大熊猫保护研究基地科研管理系统",
     projectTime: "2024.6 - 至今",
     desc: "新版鲁班系统是美团移动端的业务系统，基于React Native重构，旨在提升系统的性能与可维护性。",
     lectotype: "React Native + Redux + React Navigation + MTD MRN",
@@ -280,7 +194,7 @@ export const projectList = [
   },
   {
     id: 1114,
-    projectName: "旧版鲁班系统",
+    projectName: "成都大学科研管理系统",
     projectTime: "2024.6 - 至今",
     desc: "旧版鲁班系统是美团移动端的业务系统，基于Vue2开发，具有一定的复杂性和较多的功能模块。",
     lectotype: "Vue2 + Vuex + MTD Vue2 Mobile",
@@ -324,7 +238,7 @@ export const projectList = [
   },
   {
     id: 1102,
-    projectName: "学习公社6.0（学员端mobile）",
+    projectName: "中治赛迪-钢铁服务低碳平台官网",
     projectTime: "2024.4.19 - 2024.6.14",
     desc: "国人通内部主要业务平台",
     lectotype: "react + react-router-dom v6 + mobx",
@@ -361,7 +275,7 @@ export const projectList = [
   },
   {
     id: 1103,
-    projectName: "学习公社6.0（学员端pc）",
+    projectName: "中治赛迪-线棒材轧制数字化系统",
     projectTime: "2024.4.19 - 2024.6.14",
     desc: "国人通内部主要业务平台",
     lectotype: "react + react-router-dom v6 + mobx",
@@ -397,7 +311,7 @@ export const projectList = [
   },
   {
     id: 1104,
-    projectName: "学习公社6.0（管理端）",
+    projectName: "云养牛平台H5端",
     projectTime: "2024.4.19 - 2024.6.14",
     desc: "国人通内部主要业务平台",
     lectotype: "react + react-router-dom v6 + mobx",
@@ -435,7 +349,73 @@ export const projectList = [
   },
   {
     id: 1105,
-    projectName: "Huaxing Ai",
+    projectName: "剧荟广场微信小程序",
+    projectTime: "2023.7 - 2024.1.19",
+    desc: "华兴ai项目是华兴在公司内部提供人工智能辅助办公的尝试，旨在为员工提供方便快捷的办公平台。",
+    lectotype: "Vite + Vue3 + Antd Vue + Pinia",
+    jobOrContribute: [
+      {
+        id: 1,
+        value:
+          "担任该项目的主要开发人员，负责整个项目的架构和开发环境的搭建，确保整个项目的高效运行；",
+      },
+      {
+        id: 2,
+        value:
+          "使用 Vite + Vue 3 框架以及 Ant Design Vue 和 Pinia 插件，快速地搭建了美观、简洁、易用的聊天应用程序；",
+      },
+      {
+        id: 3,
+        value:
+          "负责处理接口调试和数据逻辑的统一处理，确保前后端之间的数据交互顺畅可靠；",
+      },
+      {
+        id: 4,
+        value:
+          "为整个团队提供了完善的数据获取方法，编写了高质量的代码并提供详尽的文档注释，以提高团队成员的开发效率；",
+      },
+      {
+        id: 5,
+        value:
+          "帮助项目顺利推进，并向公司内部员工提供了一个功能完备、界面美观、易于使用的聊天应用。",
+      },
+    ],
+    projectResults: [
+      {
+        id: 1,
+        value:
+          "在开发过程中，我成功完成了聊天项目的搭建和完善，项目正常运行并提供给公司内部员工使用；",
+      },
+      {
+        id: 2,
+        value:
+          "应用程序具有功能完备、界面美观、易于使用的特点，受到了用户的积极反馈和认可；",
+      },
+      {
+        id: 3,
+        value:
+          "通过我对接口调试和数据逻辑的统一处理，实现了前后端之间的稳定数据交互，确保了应用的可靠性和性能；",
+      },
+      {
+        id: 4,
+        value:
+          "我提供给团队成员详尽的文档注释和高质量的代码，使得其他开发人员能够轻松理解和维护项目；",
+      },
+      {
+        id: 5,
+        value:
+          "我的工作帮助项目顺利推进，根据用户反馈进行了持续的改进和优化，提升了整体的用户体验和满意度；",
+      },
+      {
+        id: 6,
+        value:
+          "在项目进行期间，我积极与团队合作，解决了各种技术和业务问题，展现了出色的团队合作精神。",
+      },
+    ],
+  },
+  {
+    id: 1105,
+    projectName: "剧荟广场销售额智慧大屏",
     projectTime: "2023.7 - 2024.1.19",
     desc: "华兴ai项目是华兴在公司内部提供人工智能辅助办公的尝试，旨在为员工提供方便快捷的办公平台。",
     lectotype: "Vite + Vue3 + Antd Vue + Pinia",
@@ -501,7 +481,7 @@ export const projectList = [
   },
   {
     id: 1106,
-    projectName: "Dashboard",
+    projectName: "医疗健康管理平台",
     projectTime: "2023.1 - 2024.1.19",
     desc: "该项目是为公司领导提供数据可视化展示的一个网页，主要用于查看公司各项运营指标和财务指标等信息。",
     lectotype: "Vue3 + Antd Vue + Echarts",
@@ -557,291 +537,16 @@ export const projectList = [
       },
     ],
   },
-  {
-    id: 1107,
-    projectName: "Solar移动端",
-    projectTime: "2022.4 - 2024.1.19",
-    desc: "为了方便公司内部员工在移动端的数据查询和筛选，我们在Solar数据中台的基础上开发了移动端应用程序，即Solar移动端。该应用程序使用React技术构建，实现了自适应屏幕布局，能够适应不同尺寸和分辨率的移动设备。",
-    lectotype: "UmiJS + React + Antd Mobile + Echarts",
-    jobOrContribute: [
-      {
-        id: 1,
-        value:
-          "参与了Solar移动端应用程序的开发工作，主要负责实现界面和交互方面的需求；",
-      },
-      {
-        id: 2,
-        value:
-          "使用React和相关的插件和库，开发了可重用的组件和模块，加速了开发过程；",
-      },
-      {
-        id: 3,
-        value:
-          "基于React Router和Redux等插件和库，管理了Solar移动端应用程序的路由、状态和数据请求等方面的需求；",
-      },
-      {
-        id: 4,
-        value:
-          "负责应用程序的自适应屏幕布局，使得应用程序能够在不同尺寸和分辨率的移动设备上正常显示；",
-      },
-      {
-        id: 5,
-        value: "参与了测试和调试工作，保证应用程序的质量和稳定性。",
-      },
-    ],
-    projectResults: [
-      {
-        id: 1,
-        value:
-          "成功开发并发布了Solar移动端应用程序，方便了公司内部员工在移动设备上的数据查询和筛选；",
-      },
-      {
-        id: 2,
-        value:
-          "应用程序使用React技术构建，具有良好的组件化和可重用性，加速了开发过程；",
-      },
-      {
-        id: 3,
-        value:
-          "应用程序实现了自适应屏幕布局，适应不同尺寸和分辨率的移动设备，提高了用户体验；",
-      },
-      {
-        id: 4,
-        value:
-          "应用程序经过测试和调试，保证了其质量和稳定性，得到了公司内部员工和客户的广泛使用和高度评价。",
-      },
-    ],
-  },
-  {
-    id: 1108,
-    projectName: "Solar (pc)",
-    projectTime: "2021.8 - 2024.1.19",
-    desc: "Solar项目是一个数据中台项目，旨在整合公司的其他数据平台，为客户的数据查询和筛选提供更加高效的解决方案。项目目标是建立一个可扩展、易维护和可靠的数据中台平台，为公司内部员工和外部客户提供高质量的数据服务。为了实现这个目标，Solar项目分为多个阶段，包括需求调研、系统设计、开发实现和测试部署等。项目团队由多个部门和职能组成，成功交付，为公司的数据服务提供了更加高效、便捷和可靠的解决方案。",
-    lectotype: "UmiJS + React + Antd + Echarts",
-    jobOrContribute: [
-      {
-        id: 1,
-        value:
-          "作为前端开发工程师，负责开发和维护Solar数据中台的前端应用程序；",
-      },
-      {
-        id: 2,
-        value: "使用React框架进行前端应用程序的开发和设计；",
-      },
-      {
-        id: 3,
-        value: "与项目团队合作，了解用户需求并根据需求开发前端应用程序；",
-      },
-      {
-        id: 4,
-        value: "参与系统设计和技术选型，为项目提供前端技术选型建议；",
-      },
-      {
-        id: 5,
-        value: "优化前端代码以提高应用程序的性能和响应速度；",
-      },
-      {
-        id: 6,
-        value: "与后端开发工程师紧密合作，确保前端和后端代码能够无缝衔接；",
-      },
-      {
-        id: 7,
-        value:
-          "提供前端技术支持和协助，为项目团队和其他相关部门提供技术指导和解决方案；",
-      },
-      {
-        id: 8,
-        value:
-          "通过团队合作和沟通，确保项目在预定时间内交付，并达到高质量的标准。",
-      },
-    ],
-    projectResults: [
-      {
-        id: 1,
-        value:
-          "成功建立了一个可扩展、易维护和可靠的数据中台平台，为公司内部员工和外部客户提供高质量的数据服务；",
-      },
-      {
-        id: 2,
-        value:
-          "整合了公司的其他数据平台，提供了更加高效的数据查询和筛选解决方案；",
-      },
-      {
-        id: 3,
-        value:
-          "集成了协同和管理配置的功能，为客户的数据使用和管理提供了全面的解决方案；",
-      },
-      {
-        id: 4,
-        value:
-          "建立了完整的项目开发流程和质量控制体系，确保项目在预定时间内交付，并达到高质量的标准；",
-      },
-      {
-        id: 5,
-        value: "提供了优质的技术支持和服务，为客户提供更好的体验和服务；",
-      },
-      {
-        id: 6,
-        value:
-          "Solar项目被公司内部广泛使用，并得到了员工和客户的高度评价。项目的成功建设为公司的数据服务提供了更加高效、便捷和可靠的解决方案，为公司的业务发展做出了重要贡献。",
-      },
-    ],
-  },
-  {
-    id: 1109,
-    projectName: "乐纯酸奶",
-    projectTime: "2020.3 - 2021.8",
-    desc: "该项目旨在为乐纯酸奶在线上推广提供支持，通过建立官网介绍页面，让用户更便捷地了解乐纯酸奶的品牌、产品、营养成分等信息。",
-    lectotype: "React + Redux",
-    jobOrContribute: [
-      {
-        id: 1,
-        value:
-          "担任模块开发，负责乐纯品牌、产品、营养价值等模块的开发和迭代优化；",
-      },
-      {
-        id: 2,
-        value:
-          "使用React框架和Redux库实现页面的组件化和数据状态管理，提高页面的可维护性和扩展性；",
-      },
-      {
-        id: 3,
-        value:
-          "使用组件库和CSS3动画效果增强页面的交互性和可视性，提升用户访问体验；",
-      },
-      {
-        id: 4,
-        value:
-          "通过不断迭代优化，完善了乐纯品牌、产品、营养价值等模块，提升了页面性能和用户体验；",
-      },
-      {
-        id: 5,
-        value: "参与项目上线后的维护和BUG修复，保证项目的稳定性和可用性。",
-      },
-    ],
-    projectResults: [
-      {
-        id: 1,
-        value:
-          "成功上线了乐纯酸奶官网介绍页面，为在线上推广乐纯酸奶提供了有力的支持；",
-      },
-      {
-        id: 2,
-        value:
-          "提升了用户了解乐纯酸奶的便捷性，增强了用户对乐纯酸奶品牌的信任感；",
-      },
-      {
-        id: 3,
-        value:
-          "不断进行优化和迭代，提升了页面性能和用户体验，有效促进了营销效果；",
-      },
-    ],
-  },
-  {
-    id: 1110,
-    projectName: "乐纯酸奶移动端",
-    projectTime: "2020.3 - 2021.8",
-    desc: "乐纯酸奶m站是为了便捷销售乐纯酸奶而设计的移动端网站，旨在提供用户在线上购买乐纯酸奶的便捷体验。该项目的主要目标是提高乐纯酸奶的线上销售量，增强品牌的知名度和用户的购买体验。",
-    lectotype: "React + React Router + Redux + JavaScript + CSS",
-    jobOrContribute: [
-      {
-        id: 1,
-        value:
-          "开发和优化了多个页面和模块，如商品列表、商品详情、购物车、订单支付等，保证了用户在m站的流畅体验；",
-      },
-      {
-        id: 2,
-        value:
-          "负责与后端开发人员对接，实现了前后端数据的交互，并且通过redux进行状态管理，提高了项目的代码复用性和可维护性；",
-      },
-      {
-        id: 3,
-        value:
-          "负责页面的性能优化，如使用lazyload减少首屏加载时间、压缩图片减少页面体积等，提高了页面的加载速度和用户体验；",
-      },
-      {
-        id: 4,
-        value:
-          "参与了项目的上线和后续的维护工作，及时修复了项目中出现的问题和bug，并持续对项目进行优化，保证了m站的稳定性和功能的完善性。",
-      },
-    ],
-    projectResults: [
-      {
-        id: 1,
-        value:
-          "通过简洁明了的页面设计和操作流程，提高了用户的购买体验和转化率；",
-      },
-      {
-        id: 2,
-        value:
-          "通过移动端的设计，提供了更加便捷的访问方式，使得用户可以随时随地浏览和购买产品；",
-      },
-      {
-        id: 3,
-        value:
-          "上线后，乐纯酸奶移动端m站得到了用户和公司的高度认可，极大地提升了乐纯酸奶的销售量和品牌影响力。",
-      },
-    ],
-  },
-  {
-    id: 1111,
-    projectName: "乐纯(产品平台)",
-    projectTime: "2020.3 - 2021.8",
-    desc: "为了方便公司内部人员操作，管理乐纯平台用户权限及管理员权限，开发了一款后台管理系统。",
-    lectotype: "React + Ant Design + Redux",
-    jobOrContribute: [
-      {
-        id: 1,
-        value: "负责与后端对接接口，实现数据的交互；",
-      },
-      {
-        id: 2,
-        value:
-          "开发用户权限及管理员权限的管理功能，包括新增、编辑、删除等操作；",
-      },
-      {
-        id: 3,
-        value: "实现用户审核及数据统计功能，为管理员提供数据分析支持；",
-      },
-      {
-        id: 4,
-        value: "优化系统性能，提高用户体验。",
-      },
-    ],
-    projectResults: [
-      {
-        id: 1,
-        value: "实现了用户审核及数据统计功能，为管理员提供数据分析支持；",
-      },
-      {
-        id: 2,
-        value:
-          "通过对系统性能的优化，提高了用户体验，获得了公司内部人员的好评；",
-      },
-      {
-        id: 3,
-        value:
-          "系统安全性得到了保障，用户权限及管理员权限的管理功能得到了充分应用。",
-      },
-    ],
-  },
 ];
 
 // 教育经历
 export const schoolUndergo = [
   {
     id: 1,
-    schoolName: "东北师范大学",
-    specialityName: "计算机科学与技术",
-    education: "本科（非全日制）",
-    time: "2021.8-2024.6",
-  },
-  {
-    id: 2,
-    schoolName: "渤海理工职业学院",
-    specialityName: "机电一体化",
-    education: "专科（全日制）",
-    time: "2017.9-2020.6",
+    schoolName: "四川轻化工大学",
+    specialityName: "轻化工程",
+    education: "本科（全日制）",
+    time: "2018.9-2022.6",
   },
 ];
 
@@ -850,38 +555,11 @@ export const myProject = [
   {
     id: 1,
     projectName: "个人技术博客",
-    projectTime: "2019.10 - 至今",
+    projectTime: "2022.10 - 至今",
     lectotype: "Next.js, React, Ant Design, Markdown, SEO",
     desc: "独立开发的技术博客平台，采用Next.js搭建，实现了动态内容渲染与静态生成的结合。通过React与Ant Design构建模块化的组件系统，并利用Markdown实现内容的灵活编辑和展示。",
     jobOrAchievement:
       "主导了全栈开发，涵盖前端页面设计、组件开发、SEO优化，以及后端的Egg.js服务与MySQL数据库集成。实现了复杂的功能模块，如文章分类、全文搜索、用户评论等，并优化了网站性能，提升了用户体验和访问速度。",
-  },
-  {
-    id: 2,
-    projectName: "博客后台管理平台",
-    projectTime: "2019.10 - 至今",
-    lectotype: "Next.js, React, Ant Design, Umi.js, Egg.js, MySQL",
-    desc: "为技术博客开发的后台管理系统，支持对文章、分类、标签等内容的高效管理。",
-    jobOrAchievement:
-      "负责系统架构设计与开发，实现了完整的CRUD功能，并引入了Umi.js进行路由管理和权限控制。使用敏捷开发方法，不断迭代优化项目，确保了高质量交付。同时，通过Git进行版本控制，保障了代码的可追溯性与协作性。",
-  },
-  {
-    id: 3,
-    projectName: "shimmer-api",
-    projectTime: "2023.6 - 至今",
-    lectotype: "NestJS",
-    desc: "基于NestJS框架的API服务平台，为多个个人项目提供后端支持。",
-    jobOrAchievement:
-      "设计并实现了高性能、可扩展的API服务，涵盖用户认证、数据处理等功能模块。通过模块化设计和依赖注入，提升了代码的可维护性，并确保了服务的稳定性和可扩展性。",
-  },
-  {
-    id: 4,
-    projectName: "率土之滨玩家管理平台",
-    projectTime: "2023.3 - 至今",
-    lectotype: "Umi.js, React, Ant Design, Nest.js, MySQL",
-    desc: "为策略游戏《率土之滨》设计的玩家管理系统，包含团队管理、任务平台等核心功能。",
-    jobOrAchievement:
-      "项目处于持续开发中，负责前后端技术选型和架构设计。前端使用Umi.js与React构建组件化界面，后端采用Nest.js与MySQL搭建数据服务。通过模块化开发与持续集成，提高了开发效率和系统可维护性。",
   },
 ];
 

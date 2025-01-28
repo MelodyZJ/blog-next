@@ -17,12 +17,12 @@ export const navList = [
     icon: "icon-xiangmu",
     title: "项目",
   },
-  {
-    key: "game",
-    href: "/pages/game",
-    icon: "icon-guidang",
-    title: "游戏",
-  },
+  // {
+  //   key: "game",
+  //   href: "/",
+  //   icon: "icon-guidang",
+  //   title: "游戏",
+  // },
   {
     key: "about",
     href: "/pages/about",

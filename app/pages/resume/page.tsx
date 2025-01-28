@@ -45,7 +45,7 @@ const Resume = (props) => {
   return (
     <div className={`${style.resume} ${props.loading && "all-page-loading"}`}>
       <div className={style.resume_content}>
-        <div className={style.title}>Shimmer 🌈</div>
+        <div className={style.title}>瓶中星辰 🌈</div>
         <div className={style.main}>
           <div className={style.main_title}>职业概述</div>
           <div className={style.main_item_desc}>{web_desc}</div>
@@ -158,9 +158,8 @@ const Resume = (props) => {
             >
               <div className={style.main_item_title}>
                 <div className={style.education_item}>{v.schoolName}</div>
-                <div className={style.education_item}>
-                  {v.specialityName}({v.education})
-                </div>
+                <div className={style.education_item}>{v.specialityName}</div>
+                <div className={style.education_item}>{v.education}</div>
                 <div className={style.education_item}>{v.time}</div>
               </div>
             </div>
