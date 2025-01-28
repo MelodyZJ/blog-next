@@ -23,7 +23,7 @@ const NewsItem = (props: { apikey: keyof typeof newsApiType }) => {
       const { data } = await getDataApi({ type: apikey });
       setList(data || []);
       setLoading(false);
-      console.log(data);
+      // console.log(data);
     };
     getData();
   }, [apikey]);
@@ -37,8 +37,8 @@ const NewsItem = (props: { apikey: keyof typeof newsApiType }) => {
         delay={0}
         size="large"
       >
-        {list?.map((item) => (
-          <div className={styles.news_item} key={item.id || `id${item.title}`}>
+        {list?.map((item, index) => (
+          <div className={styles.news_item} key={index}>
             <Link
               className={styles.news_item_link}
               href={isPC() ? item.url : item.mobileUrl || item.url}

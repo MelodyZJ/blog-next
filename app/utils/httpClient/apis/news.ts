@@ -15,6 +15,10 @@ const newsApi = {
   apiRender_news_tencent: "/news/tencent",
   // 百度贴吧热搜
   apiRender_news_tieba: "/news/tieba",
+  // 抖音
+  apiRender_news_douyin: "/news/douyin",
+  // it之家热搜
+  apiRender_news_ithome: "/news/ithome",
 };
 
 export const newsApiType = {
@@ -26,6 +30,8 @@ export const newsApiType = {
   apiRender_news_netease: "网易热搜",
   apiRender_news_tencent: "腾讯热搜",
   apiRender_news_tieba: "百度贴吧热搜",
+  apiRender_news_douyin: "抖音热搜",
+  apiRender_news_ithome: "it之家热搜",
 };
 
 export default newsApi;

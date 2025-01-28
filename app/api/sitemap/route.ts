@@ -19,13 +19,8 @@ export async function GET(req: Request, res: Response) {
   // Add URLs to the Sitemap stream
   const pages = [
     "/",
-    "/pages/archive",
-    "/pages/tree-hole",
-    "/pages/photography",
     "/pages/about",
     "/pages/resume",
-    "/pages/friendly-links",
-    "/pages/disclaimers",
     "/pages/copyright-notice",
   ];
   pages?.map((v) => sitemapStream.write({ url: `${v}` }));

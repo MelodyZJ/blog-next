@@ -6,8 +6,8 @@ export const navList = [
     title: "首页",
   },
   {
-    key: "blog",
-    href: "/",
+    key: "article",
+    href: "/pages/article",
     icon: "icon-16",
     title: "文章",
   },

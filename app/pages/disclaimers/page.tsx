@@ -54,10 +54,10 @@ const Disclaimers = (props) => {
           本人保留对本免责声明进行随时变更、更新和修改的权利。本人建议您在访问和使用本人的博客时定期查看本免责声明并了解最新更新。
         </div>
         <div className={style.footer}>
-          如对本博客免责声明有任何疑问或建议，请联系shimmer的
+          如对本博客免责声明有任何疑问或建议，请联系瓶中星辰的
           <Link
             className={`${style.link} ${style.link_click}`}
-            href="mailto:webwp0403@163.com?subject=邮件标题&body=邮件内容"
+            href="mailto:1739593209@qq.com?subject=邮件标题&body=邮件内容"
             target="_blank"
             rel="nofollow"
           >

@@ -58,10 +58,9 @@
 .picture_box_loading {
   width: calc(70% - 48px);
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 200px auto;
   padding: 24px;
   display: flex;
-  align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
