@@ -18,6 +18,12 @@ export const navList = [
     title: "项目",
   },
   {
+    key: "game",
+    href: "/pages/game",
+    icon: "icon-guidang",
+    title: "游戏",
+  },
+  {
     key: "about",
     href: "/pages/about",
     icon: "icon-geren",
