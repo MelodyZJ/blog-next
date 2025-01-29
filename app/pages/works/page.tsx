@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
@@ -7,10 +6,11 @@ import { bindHandleScroll, removeScroll } from "@utils/elementUtils";
 import { scrollTo } from "@utils/element";
 import SysIcon from "@components/SysIcon";
 // 图片
-import works_bg1 from "@public/images/2.png";
+import works_bg1 from "@public/images/works_bg.png";
 import display_1 from "@public/display/juhui.png";
 import display_2 from "@public/display/tijian.png";
 import display_3 from "@public/display/jhdatav.png";
+import display_4 from "@public/display/wanyiyun.png";
 
 import { loadingImag } from "@utils/dataImage";
 import styles from "./works.module.css";
@@ -97,13 +97,29 @@ export default function Home() {
               width={2000}
               height={1320}
               src={display_3}
-              alt="数据大屏"
+              alt="剧荟数据大屏"
               placeholder="blur"
               blurDataURL={loadingImag}
               priority={true}
             />
             <Link className={styles.page_item_link} href="">
-              数 据 大 屏
+              剧 荟 数 据 大 屏
+            </Link>
+          </div>
+
+          <div className={styles.page_item}>
+            <Image
+              className={styles.page_item_bg}
+              width={2000}
+              height={1320}
+              src={display_4}
+              alt="网易云音乐H5端"
+              placeholder="blur"
+              blurDataURL={loadingImag}
+              priority={true}
+            />
+            <Link className={styles.page_item_link} href="">
+              网 易 云 音 乐 H5 端
             </Link>
           </div>
         </div>
@@ -111,7 +127,15 @@ export default function Home() {
       <div className={styles.timeAixs_box}>
         <div className={styles.timeAixs_title}>KNOW MORE</div>
         <div className={styles.timeAixs_desc}>
-          「 想了解更多？请查看个人简历 」
+          「 想了解更多？请点击查看
+          <Link
+            className={styles.resume_link}
+            href={"/pages/resume"}
+            target="_self"
+          >
+            个人简历
+          </Link>
+          」
         </div>
       </div>
     </div>

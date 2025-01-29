@@ -43,11 +43,10 @@ const Footer = () => {
       </div>
       <div className={style.contact}>
         <div className={style.title}>联系我</div>
-        <div className={style.link}>qq: 1739593209</div>
         <div className={style.link}>微信: ZJ1739593209</div>
         <Link
           className={`${style.link} ${style.link_click}`}
-          href="mailto:webwp0403@163.com?subject=邮件标题&body=邮件内容"
+          href="mailto:1739593209@qq.com?subject=邮件标题&body=邮件内容"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >

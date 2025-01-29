@@ -8,8 +8,8 @@ import { bindHandleScroll, removeScroll } from "@utils/elementUtils";
 import { scrollTo } from "@utils/element";
 import SysIcon from "@components/SysIcon";
 // 图片
-import bgImgLight from "@public/images/1.jpg";
-import wallpaper from "@public/images/6.png";
+import bgImgLight from "@public/images/home_bg.jpg";
+import wallpaper from "@public/images/wallpaper.png";
 import headPhoto from "@public/images/headphoto.png";
 
 import { timeAixsList } from "@utils/dict";
