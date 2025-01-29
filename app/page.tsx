@@ -11,8 +11,6 @@ import SysIcon from "@components/SysIcon";
 import bgImgLight from "@public/images/1.jpg";
 import wallpaper from "@public/images/6.png";
 import headPhoto from "@public/images/headphoto.png";
-import dinosaur from "@public/images/dinosaur.jpg";
-import about_3 from "@public/images/about_3.jpg";
 
 import { timeAixsList } from "@utils/dict";
 import { loadingImag } from "@utils/dataImage";

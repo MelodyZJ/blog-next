@@ -6,17 +6,23 @@ export const navList = [
     title: "首页",
   },
   {
-    key: "article",
-    href: "/pages/article",
-    icon: "icon-16",
-    title: "文章",
-  },
-  {
-    key: "project",
-    href: "/",
+    key: "works",
+    href: "/pages/works",
     icon: "icon-xiangmu",
     title: "项目",
   },
+  {
+    key: "resume",
+    href: "/pages/resume",
+    icon: "icon-16",
+    title: "简历",
+  },
+  // {
+  //   key: "article",
+  //   href: "/pages/article",
+  //   icon: "icon-16",
+  //   title: "文章",
+  // },
   // {
   //   key: "game",
   //   href: "/",

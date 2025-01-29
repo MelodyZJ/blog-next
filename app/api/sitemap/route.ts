@@ -19,6 +19,8 @@ export async function GET(req: Request, res: Response) {
   // Add URLs to the Sitemap stream
   const pages = [
     "/",
+    "/pages/article",
+    "/pages/works",
     "/pages/about",
     "/pages/resume",
     "/pages/copyright-notice",

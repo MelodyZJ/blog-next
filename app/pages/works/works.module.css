@@ -1,0 +1,29 @@
+.shell {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-w-pure);
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+.content {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+}
+
