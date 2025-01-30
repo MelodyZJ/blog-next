@@ -79,7 +79,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
 }
 
 .company_name,
@@ -159,14 +159,14 @@
   text-indent: 2em;
 }
 
-.main_item_about{
-    font-size: 15px;
-    color: var(--b-alpha-80);
-    line-height: 1.8em;
-    padding: 16px 0;
+.main_item_about {
+  font-size: 15px;
+  color: var(--b-alpha-80);
+  line-height: 1.8em;
+  padding: 16px 0;
 }
 
-.cursor_pointer{
+.cursor_pointer {
   cursor: pointer;
 }
 

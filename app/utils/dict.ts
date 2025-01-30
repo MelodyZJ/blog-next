@@ -2,17 +2,17 @@
 export const timeAixsList = [
   {
     id: 1,
-    time: "2023.03.08",
+    time: "2022.10.08",
     title: "blog第一版HTML开发",
   },
   {
     id: 2,
-    time: "2024.05.11",
+    time: "2024.03.11",
     title: "blog第二版Vue重构",
   },
   {
     id: 3,
-    time: "2025.01.18",
+    time: "2024.12.18",
     title: "blog第三版NextJs重构(SSR)",
   },
 ];
@@ -45,6 +45,11 @@ export const skillList = [
   {
     id: 6,
     value: "掌握组件库：ElementPlus、Vuetify、Vant、Echarts、Antv、AntDesign等",
+  },
+  {
+    id: 7,
+    value:
+      "掌握多端开发能力：Web端、桌面程序端、H5端、微信小程序、手机App端、SSR服务器渲染",
   },
 ];
 
@@ -105,52 +110,52 @@ export const projectList = [
     id: 1112,
     projectName: "湖南省国家电网微信机器人后台管理系统",
     projectTime: "2024.2 - 2024.10",
-    desc: "大客系统是美团PC端的客户关系管理系统，旨在展示客户数据和关系，提升客户服务效率。",
-    lectotype: "Vue2 + Vuex + MTD Vue2",
+    desc: "通过接入微信接口，进行微信消息的接收和发送，后台配置居民用电相关话术与政策文件，实现自动回复与预警上报，以及用户管理、权限管理等功能。项目采用电网公司多年迭代的内部架构搭建。",
+    lectotype: "Vue2 + Vuex + Node.js + Echarts",
     jobOrContribute: [
       {
         id: 1,
         value:
-          "负责大客系统中的“一图”模块重构，优化客户关系图谱展示，提升系统性能和用户体验。",
+          "全权负责项目首页开发，包括数据可视化展示、图表交互、数据请求等，搜集整个项目的关键数据，确保数据准确性和图表的动态更新。",
       },
       {
         id: 2,
         value:
-          "重构“一图”模块，解耦业务与“一图”展示的关系，原子化能力模块，提高可扩展性。",
+          "负责话术管理模块以及暗语模块的开发，包括话术的增删改查、话术分类管理、话术审核以及合并等功能，实现消息准确匹配和自动回复。",
       },
       {
         id: 3,
         value:
-          "与后端紧密配合，确保前后端数据接口的稳定性，提升数据展示的准确性。",
+          "负责风险预警模块的开发，包括预警信息的管理、预警级别管理、预警审核以及预警推送等功能，实现预警信息的及时上报和推送。",
       },
       {
         id: 4,
         value:
-          "参与大客系统核心功能模块的开发与维护，优化了数据展示性能，确保系统的高效稳定运行。",
+          "负责用户管理模块以及权限模块的开发，包括用户信息管理、用户权限管理、用户角色管理等功能，实现用户身份认证和从省级市级县级到所级的权限控制。",
+      },
+      {
+        id: 5,
+        value:
+          "负责项目模块功能按钮级权限的配置，实现不同用户角色对应不同功能权限，保证数据安全性，以确保符合国家电网数据安全标准。",
       },
     ],
     projectResults: [
       {
         id: 1,
         value:
-          "通过“一图”模块的重构，提升了客户数据展示的可视化效果，增强了客户关系分析能力。",
+          "通过抽离公共组件，优化代码结构，统一代码风格，大幅提高了开发效率和可维护性。",
       },
       {
         id: 2,
         value:
-          "优化后的“一图”模块不仅提升了性能，还使得系统具有了更高的可扩展性，为未来需求提供了更好的支持。",
-      },
-      {
-        id: 3,
-        value:
-          "通过对代码结构的优化，项目维护成本降低，团队成员能够更加高效地进行后续开发。",
+          "项目稳定按时上线，在湖南省内多次开展了10万人口以上的大规模推广与试点工作，得到了用户的一致好评，为公司创造了良好的口碑和收益，为后续全省推广打好了基础。",
       },
     ],
   },
   {
     id: 1113,
     projectName: "中国大熊猫保护研究基地科研管理系统",
-    projectTime: "2024.6 - 至今",
+    projectTime: "2024.10 - 至今",
     desc: "新版鲁班系统是美团移动端的业务系统，基于React Native重构，旨在提升系统的性能与可维护性。",
     lectotype: "React Native + Redux + React Navigation + MTD MRN",
     jobOrContribute: [
@@ -195,7 +200,7 @@ export const projectList = [
   {
     id: 1114,
     projectName: "成都大学科研管理系统",
-    projectTime: "2024.6 - 至今",
+    projectTime: "2024.10 - 2025.1",
     desc: "旧版鲁班系统是美团移动端的业务系统，基于Vue2开发，具有一定的复杂性和较多的功能模块。",
     lectotype: "Vue2 + Vuex + MTD Vue2 Mobile",
     jobOrContribute: [
@@ -239,7 +244,7 @@ export const projectList = [
   {
     id: 1102,
     projectName: "中治赛迪-钢铁服务低碳平台官网",
-    projectTime: "2024.4.19 - 2024.6.14",
+    projectTime: "2024.10 - 2025.1",
     desc: "国人通内部主要业务平台",
     lectotype: "react + react-router-dom v6 + mobx",
     jobOrContribute: [
@@ -276,7 +281,7 @@ export const projectList = [
   {
     id: 1103,
     projectName: "中治赛迪-线棒材轧制数字化系统",
-    projectTime: "2024.4.19 - 2024.6.14",
+    projectTime: "2024.11 - 至今",
     desc: "国人通内部主要业务平台",
     lectotype: "react + react-router-dom v6 + mobx",
     jobOrContribute: [
@@ -312,7 +317,7 @@ export const projectList = [
   {
     id: 1104,
     projectName: "云养牛平台H5端",
-    projectTime: "2024.4.19 - 2024.6.14",
+    projectTime: "2024.1 - 2024.2",
     desc: "国人通内部主要业务平台",
     lectotype: "react + react-router-dom v6 + mobx",
     jobOrContribute: [
@@ -349,8 +354,8 @@ export const projectList = [
   },
   {
     id: 1105,
-    projectName: "剧荟广场微信小程序",
-    projectTime: "2023.7 - 2024.1.19",
+    projectName: "剧荟广场销售额智慧大屏",
+    projectTime: "2023.8 - 2024.9",
     desc: "华兴ai项目是华兴在公司内部提供人工智能辅助办公的尝试，旨在为员工提供方便快捷的办公平台。",
     lectotype: "Vite + Vue3 + Antd Vue + Pinia",
     jobOrContribute: [
@@ -415,8 +420,8 @@ export const projectList = [
   },
   {
     id: 1105,
-    projectName: "剧荟广场销售额智慧大屏",
-    projectTime: "2023.7 - 2024.1.19",
+    projectName: "剧荟广场微信小程序",
+    projectTime: "2023.4 - 2024.8",
     desc: "华兴ai项目是华兴在公司内部提供人工智能辅助办公的尝试，旨在为员工提供方便快捷的办公平台。",
     lectotype: "Vite + Vue3 + Antd Vue + Pinia",
     jobOrContribute: [
@@ -482,7 +487,7 @@ export const projectList = [
   {
     id: 1106,
     projectName: "医疗健康管理系统",
-    projectTime: "2023.1 - 2024.1.19",
+    projectTime: "2023.3 - 2024.4",
     desc: "该项目是为公司领导提供数据可视化展示的一个网页，主要用于查看公司各项运营指标和财务指标等信息。",
     lectotype: "Vue3 + Antd Vue + Echarts",
     jobOrContribute: [
@@ -556,10 +561,10 @@ export const myProject = [
     id: 1,
     projectName: "个人技术博客",
     projectTime: "2022.10 - 至今",
-    lectotype: "Next.js, React, Ant Design, Markdown, SEO",
-    desc: "独立开发的技术博客平台，采用Next.js搭建，实现了动态内容渲染与静态生成的结合。通过React与Ant Design构建模块化的组件系统，并利用Markdown实现内容的灵活编辑和展示。",
+    lectotype: "Next.js, React, Ant Design, SEO, SSR",
+    desc: "独立开发的技术博客平台，采用Next.js搭建，通过React与Ant Design构建模块化的组件系统，接入SEO优化和SSR服务端渲染技术，提升网站性能和用户体验。",
     jobOrAchievement:
-      "主导了全栈开发，涵盖前端页面设计、组件开发、SEO优化，以及后端的Egg.js服务与MySQL数据库集成。实现了复杂的功能模块，如文章分类、全文搜索、用户评论等，并优化了网站性能，提升了用户体验和访问速度。",
+      "实现了全部开发，涵盖前端页面设计、组件开发、SEO优化，以及SSR服务端渲染技术。",
   },
 ];
 
