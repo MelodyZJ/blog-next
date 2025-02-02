@@ -79,7 +79,7 @@ const Resume = (props) => {
             </div>
           ))}
           <div className={style.main_title}>
-            项目经验
+            主要项目
             <span className={style.tootip}>（点击项目名称展开）</span>
           </div>
           {projectList?.map((v, ind) => (
