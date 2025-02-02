@@ -10,7 +10,7 @@ import {
 } from "@utils/elementUtils";
 import withLoading from "@components/WithLoading";
 import useChangeLoading from "@components/WithLoading/useChangeLoading";
-import aboutImg from "@public/images/about_3.jpg";
+import aboutImg from "@public/images/about.png";
 import style from "./about.module.css";
 
 const About = (props) => {
