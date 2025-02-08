@@ -49,7 +49,7 @@ export const skillList = [
   {
     id: 7,
     value:
-      "掌握多端开发能力：Web端、桌面程序端、H5端、微信小程序、手机App端、SSR服务器渲染",
+      "具备多端开发能力：Web端、桌面程序端、H5端、微信小程序、手机App端、SSR服务器渲染",
   },
 ];
 
@@ -111,7 +111,8 @@ export const projectList = [
     projectName: "中治赛迪-线棒材轧制数字化系统",
     projectTime: "2024.11 - 至今",
     desc: "中治赛迪(世界500强企业)工业生产线棒材轧制数字化系统，集齐计算展示、模拟分析和后台管理于一体的工业生产系统",
-    lectotype: "Vue3 + Pinia + Vite + Vuetify + ElementPlus + Echarts + TailwindCSS",
+    lectotype:
+      "Vue3 + Pinia + Vite + Vuetify + ElementPlus + Echarts + TailwindCSS",
     jobOrContribute: [
       {
         id: 1,
@@ -410,9 +411,9 @@ export const myProject = [
     projectName: "个人技术博客",
     projectTime: "2022.10 - 至今",
     lectotype: "Next.js, React, Ant Design, SEO, SSR",
-    desc: "独立开发的技术博客平台，采用Next.js搭建，通过React与Ant Design构建模块化的组件系统，接入SEO优化和SSR服务端渲染技术，提升网站性能和用户体验。",
+    desc: "独立开发的技术博客平台，采用Next.js搭建，通过React与Ant Design构建模块化的组件系统，实现响应式布局，接入SEO优化和SSR服务端渲染技术，提升网站性能和用户体验。",
     jobOrAchievement:
-      "完成了全部开发工作，涵盖前端页面设计、组件开发、SEO优化，以及SSR服务端渲染技术等。",
+      "完成了全部开发工作，涵盖前端页面设计、组件开发、响应式布局、SEO优化，以及SSR服务端渲染技术等。",
   },
 ];
 
