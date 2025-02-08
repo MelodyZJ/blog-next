@@ -9,11 +9,14 @@ dependencies:
     specifier: ^5.2.6
     version: 5.5.2(react-dom@18.3.1)(react@18.3.1)
   '@mdx-js/loader':
-    specifier: ^3.0.0
+    specifier: ^3.1.0
     version: 3.1.0(acorn@8.14.0)
+  '@mdx-js/react':
+    specifier: ^3.1.0
+    version: 3.1.0(@types/react@18.3.18)(react@18.3.1)
   '@next/mdx':
-    specifier: ^14.0.4
-    version: 14.2.23(@mdx-js/loader@3.1.0)
+    specifier: ^14.2.23
+    version: 14.2.23(@mdx-js/loader@3.1.0)(@mdx-js/react@3.1.0)
   '@types/fingerprintjs2':
     specifier: ^2.0.0
     version: 2.0.0
@@ -56,6 +59,9 @@ dependencies:
   react-dom:
     specifier: ^18
     version: 18.3.1(react@18.3.1)
+  react-lazyload:
+    specifier: ^3.2.1
+    version: 3.2.1(react-dom@18.3.1)(react@18.3.1)
   remark-gfm:
     specifier: ^3.0.1
     version: 3.0.1
@@ -593,6 +599,17 @@ packages:
       react: 18.3.1
     dev: false
 
+  /@mdx-js/react@3.1.0(@types/react@18.3.18)(react@18.3.1):
+    resolution: {integrity: sha512-QjHtSaoameoalGnKDT3FoIl4+9RwyTmo9ZJGBdLOks/YOiWHoRDI3PUwEzOE7kEmGcV3AFcp9K6dYu9rEuKLAQ==}
+    peerDependencies:
+      '@types/react': '>=16'
+      react: '>=16'
+    dependencies:
+      '@types/mdx': 2.0.13
+      '@types/react': 18.3.18
+      react: 18.3.1
+    dev: false
+
   /@next/env@14.0.4:
     resolution: {integrity: sha512-irQnbMLbUNQpP1wcE5NstJtbuA/69kRfzBrpAD7Gsn8zm/CY6YQYc3HQBz8QPxwISG26tIm5afvvVbu508oBeQ==}
     dev: false
@@ -603,7 +620,7 @@ packages:
       glob: 7.1.7
     dev: true
 
-  /@next/mdx@14.2.23(@mdx-js/loader@3.1.0):
+  /@next/mdx@14.2.23(@mdx-js/loader@3.1.0)(@mdx-js/react@3.1.0):
     resolution: {integrity: sha512-4JVc67Gaj4Tr8w0WO+F5TAjS1JszagcqT06NLQ7CE6lNCyxfYRavo4LRYSdc3enp06aPiZLW6kklE3Xqf3p5rg==}
     peerDependencies:
       '@mdx-js/loader': '>=0.15.0'
@@ -615,6 +632,7 @@ packages:
         optional: true
     dependencies:
       '@mdx-js/loader': 3.1.0(acorn@8.14.0)
+      '@mdx-js/react': 3.1.0(@types/react@18.3.18)(react@18.3.1)
       source-map: 0.7.4
     dev: false
 
@@ -5135,6 +5153,16 @@ packages:
 
   /react-is@18.3.1:
     resolution: {integrity: sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==}
+    dev: false
+
+  /react-lazyload@3.2.1(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-oDLlLOI/rRLY0fUh/HYFCy4CqCe7zdJXv6oTl2pC30tN3ezWxvwcdHYfD/ZkrGOMOOT5pO7hNLSvg7WsmAij1w==}
+    peerDependencies:
+      react: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
     dev: false
 
   /react@18.3.1:
