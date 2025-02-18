@@ -49,7 +49,7 @@ export const skillList = [
   {
     id: 7,
     value:
-      "具备多端开发能力：Web端、桌面程序端、H5端、微信小程序、手机App端、SSR服务器渲染",
+      "具备多端开发能力：Web端、桌面程序端、H5端、微信小程序、手机App端、SSR服务端渲染",
   },
 ];
 
