@@ -58,7 +58,7 @@ const Footer = () => {
           © {new Date().getFullYear()} 瓶中星辰🌈 |
           <Link
             className={style.github_link}
-            href={"https://github.com/wp0403/blog-next-14"}
+            href={"https://github.com/MelodyZJ"}
             target="_blank"
           >
             <Image
