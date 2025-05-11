@@ -58,7 +58,7 @@ export const workList = [
   {
     id: 1108,
     companyName: "成都恒速科技有限公司",
-    workTime: "2024.1.17 - 至今",
+    workTime: "2024.1 - 至今",
     role: "Web前端工程师",
     place: "成都",
     operatingDuty: [
@@ -84,7 +84,7 @@ export const workList = [
   {
     id: 1109,
     companyName: "四川民图科技有限公司",
-    workTime: "2023.3.19 - 2024.1.17",
+    workTime: "2022.11 - 2024.1",
     role: "Web前端开发工程师",
     place: "泸州",
     operatingDuty: [
