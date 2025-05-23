@@ -108,9 +108,9 @@ export const workList = [
 export const projectList = [
   {
     id: 1103,
-    projectName: "中治赛迪-线棒材轧制数字化系统",
+    projectName: "中冶赛迪-线棒材轧制数字化系统",
     projectTime: "2024.11 - 至今",
-    desc: "中治赛迪(世界500强企业)工业生产线棒材轧制数字化系统，集齐计算展示、模拟分析和后台管理于一体的工业生产系统",
+    desc: "中冶赛迪(世界500强企业)工业生产线棒材轧制数字化系统，集齐计算展示、模拟分析和后台管理于一体的工业生产系统",
     lectotype:
       "Vue3 + Pinia + Vite + Vuetify + ElementPlus + Echarts + TailwindCSS",
     jobOrContribute: [
@@ -146,9 +146,9 @@ export const projectList = [
   },
   {
     id: 1102,
-    projectName: "中治赛迪-钢铁服务低碳平台官网及其后台管理系统",
+    projectName: "中冶赛迪-钢铁服务低碳平台官网及其后台管理系统",
     projectTime: "2024.10 - 2025.1",
-    desc: "中治赛迪(世界500强企业)钢铁服务低碳平台，中国钢铁工业协会低碳工作委员会官方网站，提供及时低碳资讯、政策，提供国内外多种规则下的碳核算服务",
+    desc: "中冶赛迪(世界500强企业)钢铁服务低碳平台，中国钢铁工业协会低碳工作委员会官方网站，提供及时低碳资讯、政策，提供国内外多种规则下的碳核算服务",
     lectotype: "Vue3 + Pinia + Vite + ElementPlus + Echarts",
     jobOrContribute: [
       {
