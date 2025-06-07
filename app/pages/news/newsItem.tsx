@@ -8,6 +8,7 @@ import { newsApiType } from "@utils/httpClient/apis/news";
 import styles from "./news.module.css";
 
 function isPC() {
+  if (typeof window === 'undefined') return true;
   return window.innerWidth >= 1000; // 假设宽度大于等于 1024 像素为 PC
 }
 
