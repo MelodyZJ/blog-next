@@ -3,6 +3,20 @@
 const withMDX = require("@next/mdx")();
 
 const nextConfig = {
+  // 增加构建时的内存限制
+  experimental: {
+    optimizeCss: true,
+    optimizePackageImports: ["@ant-design/icons", "antd"],
+  },
+  // 增加 webpack 配置
+  webpack: (config, { isServer }) => {
+    // 增加内存限制
+    config.optimization = {
+      ...config.optimization,
+      moduleIds: "deterministic",
+    };
+    return config;
+  },
   images: {
     remotePatterns: [
       {
