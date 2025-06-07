@@ -10,7 +10,7 @@ import fs from "fs";
 import { SitemapStream, streamToPromise } from "sitemap";
 import getDataApi from "@/utils/httpClient/request";
 
-export async function GET(req: Request, res: Response) {
+export async function GET(req: Request) {
   // Create a Sitemap stream
   const sitemapStream = new SitemapStream({
     hostname: "https://wp-boke.work",

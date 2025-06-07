@@ -2,7 +2,7 @@ import fs from "fs";
 import RSS from "rss";
 import getDataApi from "@/utils/httpClient/request";
 
-export async function GET(req: Request, res: Response) {
+export async function GET(req: Request) {
   const feed = new RSS({
     title: "Shimmer RSS",
     description: "shimmer博客的rss",

@@ -1,7 +1,7 @@
 import fs from "fs";
 import { SitemapStream, streamToPromise } from "sitemap";
 
-export async function GET(req: Request, res: Response) {
+export async function GET(req: Request) {
   // Create a Sitemap stream
   const sitemapStream = new SitemapStream({
     hostname: "https://wp-boke.work",
@@ -37,5 +37,5 @@ export async function GET(req: Request, res: Response) {
     },
   });
 
-  return myResponse
+  return myResponse;
 }
