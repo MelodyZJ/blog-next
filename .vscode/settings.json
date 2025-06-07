@@ -12,5 +12,6 @@
     "eslint.enable": true,
     "eslint.options": {
         "configFile": ".eslintrc.js"
-    }
+    },
+    "vscode.tsc.compiler.alertTSConfigChanges": "never"
 }

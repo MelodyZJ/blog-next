@@ -1,0 +1,199 @@
+.gameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--bg-w-pure);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  height: auto;
+  min-height: fit-content;
+  box-sizing: border-box;
+}
+
+.scoreBoard {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--b-alpha-80);
+  background: linear-gradient(135deg, #4CAF50, #2196F3);
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gameCanvas {
+  border: 2px solid var(--b-alpha-20);
+  border-radius: 8px;
+  background-color: var(--bg-w-pure);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: auto;
+  height: auto;
+}
+
+.controls {
+  display: flex;
+  gap: 16px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(135deg, #4CAF50, #2196F3);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.instructions {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: var(--bg-w-alpha-80);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease;
+}
+
+.instructions p {
+  color: var(--b-alpha-60);
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+.modalContent {
+  background: var(--bg-w-pure);
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  animation: slideIn 0.3s ease;
+}
+
+.modalTitle {
+  font-size: 24px;
+  color: var(--b-alpha-80);
+  margin-bottom: 15px;
+}
+
+.modalScore {
+  font-size: 18px;
+  color: var(--b-alpha-60);
+  margin-bottom: 20px;
+}
+
+.modalButton {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(135deg, #4CAF50, #2196F3);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.modalButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modalButton:focus {
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gameContainer {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .scoreBoard {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  .button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .instructions {
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .modalContent {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .modalTitle {
+    font-size: 20px;
+  }
+
+  .modalScore {
+    font-size: 16px;
+  }
+} 

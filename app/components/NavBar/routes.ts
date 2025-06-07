@@ -6,6 +6,12 @@ export const navList = [
     title: "首页",
   },
   {
+    key: "game",
+    href: "/pages/game",
+    icon: "icon-guidang",
+    title: "游戏",
+  },
+  {
     key: "works",
     href: "/pages/works",
     icon: "icon-xiangmu",
