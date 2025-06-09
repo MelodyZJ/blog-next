@@ -281,10 +281,6 @@ const SnakeGame = () => {
           </>
         )}
       </div>
-      <div className={styles.instructions}>
-        <p>使用方向键或WASD控制移动</p>
-        <p>空格键暂停/继续游戏</p>
-      </div>
       {gameOver && <GameOverModal score={score} onRestart={resetGame} />}
     </div>
   );

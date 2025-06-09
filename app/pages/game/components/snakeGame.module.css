@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 20px;
+  padding: 30px;
   background-color: var(--bg-w-pure);
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -66,23 +66,6 @@
 .button:focus {
   outline: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.instructions {
-  text-align: center;
-  font-size: 14px;
-  line-height: 1.6;
-  background-color: var(--bg-w-alpha-80);
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  transition: background-color 0.3s ease;
-}
-
-.instructions p {
-  color: var(--b-alpha-60);
-  margin: 0;
-  transition: color 0.3s ease;
 }
 
 .modalOverlay {
